@@ -1,0 +1,29 @@
+{
+  "name": "@victorinox/b2cstore-frontend",
+  "version": "105.1.0",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=18.19.1"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.25.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "babel-loader": "^8.2.5",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.8.2",
+    "webpack": "^5.74.0"
+  }
+}
